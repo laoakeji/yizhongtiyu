@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/style.css">
+		<script src="__PUBLIC__/Home/Scripts/jquery-2.0.3.min.js"></script>
+		<script src="__PUBLIC__/Home/Scripts/myjs.js"></script>
+		<title>河南亿众体育</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="__PUBLIC__/Home/images/logo.png" alt="LOGO"></a>
+			</div>
+			<div class="header_right">每一天 一起动<span>{$ind.tel1}<br/>{$ind.tel2}</span></div>
+		</div>
+		<div class="nav_out">
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li class="this"><a href="{:U('Home/Index/intro_intro')}?type=1">关于亿众</a></li>
+					<li><a href="{:U('Home/Index/pro_detail')}">产品中心</a>
+						<div class="slide">
+							<dl>
+								<volist name="protitle" id="vo">
+									<dd>                                                     
+										<a href="{:U('Home/Index/product')}?type={$vo.id}">
+											<h2>{$vo.title}</h2>
+											<div class="images"><img src="{$vo.image}" style="width:160px;height: 80px" alt="图片"></div>
+										</a>              
+									</dd>
+								</volist>
+							</dl>
+						</div>
+					</li>
+					<li><a href="{:U('Home/Index/news')}">行业动态</a></li>
+					<li><a href="{:U('Home/Index/cases')}?typeid=0">经典案例</a></li>
+					<li><a href="{:U('Home/Index/contact')}">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				var nav = $(".nav").find("li");
+				for (var i = 0; i < nav.length; i++) {
+					var n = nav.eq(i).children(".slide").length;
+					if (n == 1) {
+						nav.eq(i).bind({
+							"mouseover": jr,
+							"mouseout": lk
+						})
+					}
+				}
+
+				function jr() {
+					$(this).children(".slide").stop(true).slideDown();
+				}
+
+				function lk() {
+					$(this).children(".slide").slideUp("fast");
+				}
+			})
+		</script>
+
+		
+			<img class="banner" alt="" src="{$imgdlist[0].img_url}">
+		
+
+		<div class="teamabout">
+			<div><a href="{:U('Home/Index/intro_intro')}?type=1">公司简介</a></div>
+			<div><a href="{:U('Home/Index/intro_intro')}?type=2">公司团队</a></div>
+			<div><a class="bg" href="{:U('Home/Index/intro_story')}">品牌故事</a></div>
+			<div><a href="{:U('Home/Index/intro_intro')}?type=4">公司资质</a></div>
+			<div><a href="{:U('Home/Index/intro_intro')}?type=5">合作客户</a></div>
+			<img alt="" src="__PUBLIC__/Home/images/nav-1.jpg">
+		</div>
+
+		</div>
+		<!--品牌故事开始-->
+		<!--标题开始-->
+		<div class="about_title">
+			<a id="brand"><img style=" position:relative; left:400px;; top:40px;;" src="__PUBLIC__/Home/picture/about_tb.jpg" /><span>品牌故事 BRAND</span></a>
+			<p>运动就要酷到底，运动点燃生活，爱运动,真快乐</p>
+		</div>
+		<!--标题结束-->
+		<div class="width1 about_brand_bg">
+			<ul class="about_brand">
+				<li>
+				</li>
+				
+				<?php $a=1; ?>
+				<volist name="yearlist" id="vo">
+					<li class="brand3">
+						<volist name="list" id="vol">
+							<if condition="$vol['yearid'] eq $vo['id']">
+								<if condition="$a eq 1">
+        							<h1>{$vol.content}</h1>
+									<h2>{$vol.time|date='Y-m-d',###}</h2>
+									<p class="clear"><br /></p>
+									<?php $a=2; ?>
+								<else/>
+									<h4>{$vol.time|date='Y-m-d',###}</h4>
+									<h5>{$vol.content}</h5>
+									<p class="clear"><br /></p>
+									<?php $a=1; ?>
+								</if>
+							</if>
+
+						</volist>
+						<h3>{$vo.name}</h3>
+					</li>
+				</volist>
+
+
+
+				<!-- 
+				<li class="brand5">
+					<h3>2017 探索</h3>
+				</li> -->
+
+				<li>
+					<h6></h6>
+				</li>
+				<p class="clear"><br />
+				</p>
+			</ul>
+		</div>
+		<div class="width1 about_brands"><img style=" position:relative; left:585px;; top:0;" src="__PUBLIC__/Home/picture/about_brand_dian2.jpg" /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016更多奇迹，等你来创造！！！
+		</div>
+		<!--脚注开始-->
+		<div class="clear"> </div>
+		<div class="width1 bottom_top">
+			<a><img onClick="window.scroll(0,0)" src="__PUBLIC__/Home/picture/btop.png"></a>
+		</div>
+		<div class="bottom_bg width2">
+			<ul class="bottom_link">
+				<li><span>友情链接：</span></li>
+				<li><a href="http://ktwlkj.com//" target="_blank">河南开天网络科技有限公司</a> </li>
+			</ul>
+			<p class="clear"> </p>
+			<div class="bottom_nav">
+				<ul class="left">
+					<volist name="listtlist" id="tvo">
+						<li>
+							<span>
+								<a href="{:U('Home/Index/product')}?type={$tvo.id}">【{$tvo.title}】</a>
+							</span>
+							<volist name="listlist" id="vo">
+								<eq name="vo.typeid" value="$tvo.id">
+									<a href="{:U('Home/Index/product')}?type={$tvo.id}">{$vo.name}</a>
+								</eq>
+							</volist>
+						</li>
+					</volist>
+				</ul>
+				<div class="bottom_code left"><img src="__PUBLIC__/Home/picture/qcode.jpg"><span>扫描网站二维码</span></div>
+				<p class="clear"> </p>
+			</div>
+			<div class="bottom_con"> 
+				<a href="http://www.sports-yizhong.com/index.php/Home/Index/intro_intro.html?type=1" class="menu2">关于我们</a> | <a href="http://www.sports-yizhong.com/index.php/Home/Index/intro_story.html" class="menu2">品牌故事</a> | <a href="http://www.sports-yizhong.com/index.php/Home/Index/contact.html" class="menu2">联系我们</a><br> 全国服务热线：{$copylist.tel} &nbsp; &nbsp; 地址:{$copylist.address}<br> 版权所有 ©{$copylist.copy}
+				&nbsp; &nbsp; 技术支持：<a href="{$copylist.url}" target="_blank" class="menu2">{$copylist.tech}</a> 
+			</div>
+		</div>
+		<!--脚注结束-->
+	</body>
+
+</html>

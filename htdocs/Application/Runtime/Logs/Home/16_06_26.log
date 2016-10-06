@@ -1,0 +1,1871 @@
+[ 2016-06-26T06:28:28+08:00 ] 42.156.251.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-06-26T08:30:07+08:00 ] 36.248.113.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-06-26T08:30:07+08:00 ] 36.248.113.204 //index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-06-26T10:14:00+08:00 ] 219.156.99.57 /index.php/Home/Index/product.html?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_pro_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-06-26T10:14:00+08:00 ] 112.64.235.248 /index.php/Home/Index/product.html?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-06-26T10:14:02+08:00 ] 219.156.99.57 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-06-26T10:14:05+08:00 ] 101.226.33.239 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-06-26T10:14:10+08:00 ] 101.226.33.240 /index.php/Home/Index/product.html?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-06-26T10:14:10+08:00 ] 180.153.201.216 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-06-26T10:14:19+08:00 ] 219.156.99.57 /index.php/Home/Index/product.html?type=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-06-26T10:14:19+08:00 ] 180.153.201.212 /index.php/Home/Index/product.html?type=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-06-26T10:14:20+08:00 ] 112.64.235.246 /index.php/Home/Index/product.html?type=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-06-26T10:14:28+08:00 ] 219.156.99.57 /index.php/Home/Index/intro_story.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_year` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_intro_year` ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_intro_story` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_intro_story` ORDER BY time asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-06-26T10:14:29+08:00 ] 112.64.235.90 /index.php/Home/Index/intro_story.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_year` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_intro_year` ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_story` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_intro_story` ORDER BY time asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-06-26T10:14:32+08:00 ] 219.156.99.57 /index.php/Home/Index/intro_intro.html?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_intro_intro` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `yz_intro_intro` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-06-26T10:14:32+08:00 ] 112.64.235.251 /index.php/Home/Index/intro_intro.html?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_intro` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_intro_intro` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-06-26T10:14:33+08:00 ] 219.156.99.57 /index.php/Home/Index/intro_intro.html?type=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_intro` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_intro_intro` WHERE ( type=5 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-06-26T10:14:33+08:00 ] 180.153.205.252 /index.php/Home/Index/intro_intro.html?type=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_intro` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_intro_intro` WHERE ( type=5 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-06-26T10:14:35+08:00 ] 219.156.99.57 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-06-26T10:14:35+08:00 ] 101.226.89.115 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-06-26T10:14:36+08:00 ] 101.226.66.181 /index.php/Home/Index/intro_story.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_year` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_intro_year` ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_story` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_intro_story` ORDER BY time asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-06-26T10:14:39+08:00 ] 180.153.206.33 /index.php/Home/Index/intro_intro.html?type=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_intro` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_intro_intro` WHERE ( type=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-06-26T10:14:40+08:00 ] 101.226.33.227 /index.php/Home/Index/intro_intro.html?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_intro_intro` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_intro_intro` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-06-26T10:14:41+08:00 ] 101.226.33.239 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-06-26T10:14:45+08:00 ] 219.156.99.57 /index.php/Home/Index/cases.html?typeid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-06-26T10:14:45+08:00 ] 219.156.99.57 /index.php/Home/Index/scripts/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0009s ]
+ERR: 非法操作:scripts
+
+[ 2016-06-26T10:14:45+08:00 ] 219.156.99.57 /index.php/Home/Index/scripts/myjs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0039s ]
+ERR: 非法操作:scripts
+
+[ 2016-06-26T10:14:46+08:00 ] 112.64.235.249 /index.php/Home/Index/cases.html?typeid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-06-26T10:14:47+08:00 ] 219.156.99.57 /index.php/Home/Index/goto_cases.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `yz_cases` SET `id`='1',`type`='',`title`='2013年中建三局职工趣味运动会',`desc`='2013年中建三局职工趣味运动会',`content`='&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;时间：2013-09-23&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;地点：汉口文体中心体育馆&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;挑战人数：3000人&lt;/p&gt;&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;2013年10月在汉口文体中心体育馆顺利召开，本次活动由武汉亿众体育文化传播有限公司承办。活动中有传统赛事也有趣味性很强的项目，本次趣味运动会缓解了中建三局职工工作之余的疲劳情绪，娱乐了他们的身心健康，为进一步提高工作效率起到一定作用。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466589246128204.jpg&quot; title=&quot;1466589246128204.jpg&quot; alt=&quot;20160323161293179317.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/tu.jpg',`ptime`='1232553600',`ctime`='1',`address`='1',`number`='1',`author`='管理员',`count`='58',`typeid`='1',`link`='1' WHERE ( id=1 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-06-26T10:14:48+08:00 ] 180.153.206.37 /index.php/Home/Index/goto_cases.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `yz_cases` SET `id`='1',`type`='',`title`='2013年中建三局职工趣味运动会',`desc`='2013年中建三局职工趣味运动会',`content`='&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;时间：2013-09-23&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;地点：汉口文体中心体育馆&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;挑战人数：3000人&lt;/p&gt;&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;2013年10月在汉口文体中心体育馆顺利召开，本次活动由武汉亿众体育文化传播有限公司承办。活动中有传统赛事也有趣味性很强的项目，本次趣味运动会缓解了中建三局职工工作之余的疲劳情绪，娱乐了他们的身心健康，为进一步提高工作效率起到一定作用。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466589246128204.jpg&quot; title=&quot;1466589246128204.jpg&quot; alt=&quot;20160323161293179317.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/tu.jpg',`ptime`='1232553600',`ctime`='1',`address`='1',`number`='1',`author`='管理员',`count`='59',`typeid`='1',`link`='1' WHERE ( id=1 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-06-26T10:14:48+08:00 ] 180.153.163.209 /index.php/Home/Index/goto_cases.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `yz_cases` SET `id`='1',`type`='',`title`='2013年中建三局职工趣味运动会',`desc`='2013年中建三局职工趣味运动会',`content`='&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;时间：2013-09-23&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;地点：汉口文体中心体育馆&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;挑战人数：3000人&lt;/p&gt;&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;2013年10月在汉口文体中心体育馆顺利召开，本次活动由武汉亿众体育文化传播有限公司承办。活动中有传统赛事也有趣味性很强的项目，本次趣味运动会缓解了中建三局职工工作之余的疲劳情绪，娱乐了他们的身心健康，为进一步提高工作效率起到一定作用。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466589246128204.jpg&quot; title=&quot;1466589246128204.jpg&quot; alt=&quot;20160323161293179317.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/tu.jpg',`ptime`='1232553600',`ctime`='1',`address`='1',`number`='1',`author`='管理员',`count`='60',`typeid`='1',`link`='1' WHERE ( id=1 ) [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-06-26T10:14:55+08:00 ] 219.156.99.57 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_news`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-06-26T10:14:57+08:00 ] 180.153.160.62 /index.php/Home/Index/cases.html?typeid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-06-26T10:14:57+08:00 ] 219.156.99.57 /index.php/Home/Index/goto_news.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_news` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `yz_news` SET `id`='1',`type`='户外扩展',`title`='2016武汉城市投资集团棋牌运动会',`desc`='2016年4月6号，招商银行武汉分行第十二届企业文化节，“行庆生日跑”活动',`content`='&lt;p&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会就是以学生为主体，以娱乐为中心，以趣味游戏为载体，在锻炼身体的同时同时兼顾培养学生坚韧不拔的精神和团结协作意识的一种体育比赛形式。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会是以“发展体能，突出趣味竞技性”为主题的运动会，趣味运动会比赛项目乐趣十足、竞技性强，丰富学生的课外生活，给学生与教师一个交流、合作的空间。在活动中让学生体验运动的趣味和快乐、学会合作，且培养学生集体荣誉感和竞争意识，使孩子们的身心得到健康全面发展。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会的特点就是体力、智力和合作，核心体现一个“趣”字， “趣味”不仅充分激发了孩子们对体育活动的兴趣，也培养了他们团结协作的精神。趣味运动会是田径运动会的一个有效补充，趣味运动会能广泛而持久地吸引学生的兴趣和热情，为学生终生体育打下良好的基础。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466588394136531.jpg&quot; title=&quot;1466588394136531.jpg&quot; alt=&quot;20160517141731143114.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/20160406154155185518.jpg',`ptime`='1466588915',`author`='管理员',`count`='132' WHERE ( id=1 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-06-26T10:14:58+08:00 ] 101.226.33.216 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_news`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-06-26T10:15:00+08:00 ] 180.153.206.31 /index.php/Home/Index/goto_news.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_news` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `yz_news` SET `id`='1',`type`='户外扩展',`title`='2016武汉城市投资集团棋牌运动会',`desc`='2016年4月6号，招商银行武汉分行第十二届企业文化节，“行庆生日跑”活动',`content`='&lt;p&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会就是以学生为主体，以娱乐为中心，以趣味游戏为载体，在锻炼身体的同时同时兼顾培养学生坚韧不拔的精神和团结协作意识的一种体育比赛形式。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会是以“发展体能，突出趣味竞技性”为主题的运动会，趣味运动会比赛项目乐趣十足、竞技性强，丰富学生的课外生活，给学生与教师一个交流、合作的空间。在活动中让学生体验运动的趣味和快乐、学会合作，且培养学生集体荣誉感和竞争意识，使孩子们的身心得到健康全面发展。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会的特点就是体力、智力和合作，核心体现一个“趣”字， “趣味”不仅充分激发了孩子们对体育活动的兴趣，也培养了他们团结协作的精神。趣味运动会是田径运动会的一个有效补充，趣味运动会能广泛而持久地吸引学生的兴趣和热情，为学生终生体育打下良好的基础。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466588394136531.jpg&quot; title=&quot;1466588394136531.jpg&quot; alt=&quot;20160517141731143114.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/20160406154155185518.jpg',`ptime`='1466588915',`author`='管理员',`count`='133' WHERE ( id=1 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-26T10:15:01+08:00 ] 219.156.99.57 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-06-26T10:15:02+08:00 ] 101.226.65.107 /index.php/Home/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_news`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-06-26T10:15:07+08:00 ] 180.153.161.217 /index.php/Home/Index/goto_news.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_news` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0052s ]
+SQL: UPDATE `yz_news` SET `id`='1',`type`='户外扩展',`title`='2016武汉城市投资集团棋牌运动会',`desc`='2016年4月6号，招商银行武汉分行第十二届企业文化节，“行庆生日跑”活动',`content`='&lt;p&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会就是以学生为主体，以娱乐为中心，以趣味游戏为载体，在锻炼身体的同时同时兼顾培养学生坚韧不拔的精神和团结协作意识的一种体育比赛形式。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会是以“发展体能，突出趣味竞技性”为主题的运动会，趣味运动会比赛项目乐趣十足、竞技性强，丰富学生的课外生活，给学生与教师一个交流、合作的空间。在活动中让学生体验运动的趣味和快乐、学会合作，且培养学生集体荣誉感和竞争意识，使孩子们的身心得到健康全面发展。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 14px; line-height: 25px;&quot;&gt;学校趣味运动会的特点就是体力、智力和合作，核心体现一个“趣”字， “趣味”不仅充分激发了孩子们对体育活动的兴趣，也培养了他们团结协作的精神。趣味运动会是田径运动会的一个有效补充，趣味运动会能广泛而持久地吸引学生的兴趣和热情，为学生终生体育打下良好的基础。&lt;/span&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466588394136531.jpg&quot; title=&quot;1466588394136531.jpg&quot; alt=&quot;20160517141731143114.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/20160406154155185518.jpg',`ptime`='1466588915',`author`='管理员',`count`='134' WHERE ( id=1 ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-06-26T10:15:17+08:00 ] 180.153.163.190 /index.php/Home/Index/cases.html?typeid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-06-26T10:21:38+08:00 ] 112.64.235.249 /index.php/Home/Index/scripts/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+ERR: 非法操作:scripts
+
+[ 2016-06-26T10:21:38+08:00 ] 112.64.235.249 /index.php/Home/Index/scripts/myjs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+ERR: 非法操作:scripts
+
+[ 2016-06-26T10:47:23+08:00 ] 183.61.51.179 /index.php/Home/Index/goto_cases.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `yz_cases` SET `id`='1',`type`='',`title`='2013年中建三局职工趣味运动会',`desc`='2013年中建三局职工趣味运动会',`content`='&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;时间：2013-09-23&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;地点：汉口文体中心体育馆&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;挑战人数：3000人&lt;/p&gt;&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;2013年10月在汉口文体中心体育馆顺利召开，本次活动由武汉亿众体育文化传播有限公司承办。活动中有传统赛事也有趣味性很强的项目，本次趣味运动会缓解了中建三局职工工作之余的疲劳情绪，娱乐了他们的身心健康，为进一步提高工作效率起到一定作用。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466589246128204.jpg&quot; title=&quot;1466589246128204.jpg&quot; alt=&quot;20160323161293179317.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/tu.jpg',`ptime`='1232553600',`ctime`='1',`address`='1',`number`='1',`author`='管理员',`count`='61',`typeid`='1',`link`='1' WHERE ( id=1 ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-06-26T10:47:26+08:00 ] 101.226.65.108 /index.php/Home/Index/goto_cases.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `yz_cases` SET `id`='1',`type`='',`title`='2013年中建三局职工趣味运动会',`desc`='2013年中建三局职工趣味运动会',`content`='&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;时间：2013-09-23&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;地点：汉口文体中心体育馆&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;挑战人数：3000人&lt;/p&gt;&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;2013年10月在汉口文体中心体育馆顺利召开，本次活动由武汉亿众体育文化传播有限公司承办。活动中有传统赛事也有趣味性很强的项目，本次趣味运动会缓解了中建三局职工工作之余的疲劳情绪，娱乐了他们的身心健康，为进一步提高工作效率起到一定作用。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466589246128204.jpg&quot; title=&quot;1466589246128204.jpg&quot; alt=&quot;20160323161293179317.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/tu.jpg',`ptime`='1232553600',`ctime`='1',`address`='1',`number`='1',`author`='管理员',`count`='62',`typeid`='1',`link`='1' WHERE ( id=1 ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-06-26T10:47:31+08:00 ] 101.226.33.219 /index.php/Home/Index/goto_cases.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `yz_cases` SET `id`='1',`type`='',`title`='2013年中建三局职工趣味运动会',`desc`='2013年中建三局职工趣味运动会',`content`='&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;时间：2013-09-23&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;地点：汉口文体中心体育馆&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;挑战人数：3000人&lt;/p&gt;&lt;p style=&quot;padding: 20px 0px 0px 20px; border: 0px; margin-top: 0px; margin-bottom: 0px; list-style: none; outline: none; font-family: 微软雅黑; font-size: 12px; line-height: 20px; white-space: normal;&quot;&gt;2013年10月在汉口文体中心体育馆顺利召开，本次活动由武汉亿众体育文化传播有限公司承办。活动中有传统赛事也有趣味性很强的项目，本次趣味运动会缓解了中建三局职工工作之余的疲劳情绪，娱乐了他们的身心健康，为进一步提高工作效率起到一定作用。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160622/1466589246128204.jpg&quot; title=&quot;1466589246128204.jpg&quot; alt=&quot;20160323161293179317.jpg&quot;/&gt;&lt;/p&gt;',`image`='/Uploads/images/tu.jpg',`ptime`='1232553600',`ctime`='1',`address`='1',`number`='1',`author`='管理员',`count`='63',`typeid`='1',`link`='1' WHERE ( id=1 ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-06-26T10:51:39+08:00 ] 101.226.66.179 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-06-26T10:51:44+08:00 ] 61.151.186.145 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-06-26T10:51:48+08:00 ] 180.153.206.31 /index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-06-26T12:00:09+08:00 ] 40.77.167.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-26T18:04:12+08:00 ] 54.157.134.126 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-06-26T20:51:21+08:00 ] 36.248.113.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_wubai` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=4 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yz_wubai` WHERE ( typeid=5 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_yzser` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_yzser` ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 346 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 386 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 426 行.
+NOTIC: [8] Undefined variable: wulist /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-06-26T20:51:22+08:00 ] 36.248.113.204 //index.php/Home/Index/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yz_copyright` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_copyright` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_img` WHERE ( type!=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_index` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_index` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_pro_dlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_pro_dlist`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_contact_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_contact_info` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: id /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Home/a873315f4d7930e02d8853d9439fbb36.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+

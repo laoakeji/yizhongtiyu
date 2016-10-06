@@ -1,0 +1,1461 @@
+[ 2016-07-04T08:27:49+08:00 ] 1.192.164.245 /index.php/Pangu/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/65397f1e9fe206013d2c7702e5aee956.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-07-04T08:27:56+08:00 ] 1.192.164.245 /index.php/Pangu/Login/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_admin` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_admin` WHERE ( uname='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-04T08:27:57+08:00 ] 1.192.164.245 /index.php/Pangu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-07-04T08:27:57+08:00 ] 1.192.164.245 /index.php/Pangu/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: SystemRoot /data/home/qxu2063020067/htdocs/Application/Pangu/Controller/IndexController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-07-04T08:27:57+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:28:04+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-07-04T08:28:04+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-07-04T08:28:04+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:28:11+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-07-04T08:28:13+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-07-04T08:28:31+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=16&time=1436486400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2008年中信银行武汉分行职工运动会',`author`='管理员 ',`image`='/Uploads/images/201606271254305770b18678eed.jpg',`ptime`='1436486400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2008-04-25&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：汉口文化体育中心&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：700人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;由武汉亿众体育文化传播有限公司全程策划、执行的中信银行武汉分行第四届职工趣味运动会于2008年4月12日在汉口文化体育中心举行。本届趣味运动会有中信银行武汉分行各支行，共20支代表队参加，参赛运动员近700人，从规模、效果上看为历届比赛规模最大，参赛运动员最多、效果最好的的一次运动会，各代表队参加了14个集体项目和14个个人项目和三个娱乐项目。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003349646524.jpg&quot; title=&quot;1467003349646524.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003349512113.jpg&quot; title=&quot;1467003349512113.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003350364416.jpg&quot; title=&quot;1467003350364416.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=16 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-07-04T08:28:32+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-07-04T08:28:33+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:28:40+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-07-04T08:28:41+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-07-04T08:28:50+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=30&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0014s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='视频资料',`author`='管理员',`image`='/Uploads/images/201606291747395773993b8221a.jpg',`ptime`='1467590400',`typeid`='1',`content`='' WHERE ( id=30 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-07-04T08:28:52+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-07-04T08:28:53+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:28:57+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: DELETE FROM `yz_cases` WHERE ( id=31 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-07-04T08:29:02+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-07-04T08:29:03+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-07-04T08:29:09+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=25&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2016武汉市城市建设投资开发集团有限公司',`author`='管理员',`image`='/Uploads/images/201606281025135771e00924fc3.jpg',`ptime`='1467590400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2016-05-28&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：宗关水厂职工活动中心&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：200人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;2016年5月28日，武汉市城市建设投资开发集团有限公司职工乒羽对抗赛，比赛全程由亿众体育策划执行。亿众体育专门从事企事业单位的员工活动、趣味运动会、体育赛事策划、企业相亲会、户外活动等，亿众体育相信，在我们的不断努力下，可以给每一个企业带去更好的员工活动体验。夏季水上趣味运动会现已全面上线！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080729178788.jpg&quot; title=&quot;1467080729178788.jpg&quot; alt=&quot;20160531145959405940.jpg&quot;/&gt;&lt;/p&gt;' WHERE ( id=25 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-07-04T08:29:10+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-07-04T08:29:11+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:29:13+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-07-04T08:29:15+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-07-04T08:29:20+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=24&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2015年民生银行网球赛',`author`='管理员',`image`='/Uploads/images/201606281024085771dfc82e8ef.png',`ptime`='1467590400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2016-06-06&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：武汉体育学院&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：300人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;亿众体育总承办2015年民生信用卡网球俱乐部邀请赛武汉站活动。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080582429647.jpg&quot; title=&quot;1467080582429647.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080582536847.jpg&quot; title=&quot;1467080582536847.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080582691941.jpg&quot; title=&quot;1467080582691941.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=24 ) [ RunTime:0.0135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-07-04T08:29:22+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-07-04T08:29:22+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:29:28+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-07-04T08:29:29+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-07-04T08:29:34+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=22&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='武汉三源“快乐向前冲”',`author`='管理员',`image`='/Uploads/images/201606281015175771ddb5604e0.jpg',`ptime`='1467590400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2012-02-01&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：400人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;武汉三源“快乐向前冲”团队竞技赛由武汉亿众体育文化传播有限公司全程策划与执行，本次活动本着我我运动，我快乐，我健康的原则。着力培养员工自信，自强不息，乐观向上的意志。通过此次比赛的平台相互交流，娱乐身心，促进员工积极参与各类体育健身活动，在繁忙的工作之余使员工的身体得到很好的锻炼。赛事的成功举办体现了三源人的积极响应全民健身号召。真正从自己出发，共建和谐社会的良好意愿。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080232835419.jpg&quot; title=&quot;1467080232835419.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080232244582.jpg&quot; title=&quot;1467080232244582.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080232328478.jpg&quot; title=&quot;1467080232328478.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=22 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-07-04T08:29:35+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-07-04T08:29:35+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:29:40+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-07-04T08:29:42+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-07-04T08:29:48+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=21&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2016年璟丰科技“极限探宝”主题年会',`author`='超级管理员  ',`image`='/Uploads/images/201606281013155771dd3b37c75.jpg',`ptime`='1467590400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2016-02-02&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：江夏中州府&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：51人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;亿众体育承办2016年璟丰科技有限公司“极限探宝”主题年会。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080022449834.jpg&quot; title=&quot;1467080022449834.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080022178990.jpg&quot; title=&quot;1467080022178990.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160628/1467080023141244.jpg&quot; title=&quot;1467080023141244.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=21 ) [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-07-04T08:29:49+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-07-04T08:29:49+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:29:53+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-07-04T08:29:55+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-07-04T08:29:59+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=19&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0013s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2009年烽火科技趣味运动会',`author`='管理员 ',`image`='/Uploads/images/201606271302315770b367ac551.jpg',`ptime`='1467590400',`typeid`='1',`content`='&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003773182923.jpg&quot; title=&quot;1467003773182923.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003773405596.jpg&quot; title=&quot;1467003773405596.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003773914570.jpg&quot; title=&quot;1467003773914570.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=19 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-07-04T08:30:00+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-07-04T08:30:00+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:30:04+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-07-04T08:30:05+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-07-04T08:30:09+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=18&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0010s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2009年兴业银行武汉分行职工趣味运动会',`author`='管理员',`image`='/Uploads/images/201606271300435770b2fb6ec98.jpg',`ptime`='1467590400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2009-10-24&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：武汉体育学院&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：900人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;武汉亿众体育总承办兴业银行武汉分行职工趣味运动会&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003674802377.jpg&quot; title=&quot;1467003674802377.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003674479805.jpg&quot; title=&quot;1467003674479805.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003674716637.jpg&quot; title=&quot;1467003674716637.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=18 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-07-04T08:30:10+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-07-04T08:30:11+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:30:15+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-07-04T08:30:17+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-07-04T08:30:20+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=15&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2008年交通银行湖北省分行职工运动会',`author`='管理员',`image`='/Uploads/images/20160624174014576cfffe09f94.jpg',`ptime`='1467590400',`typeid`='1',`content`='&lt;p&gt;&lt;span style=&quot;color: rgb(53, 53, 53); font-family: 微软雅黑; font-size: 12px; line-height: 25px; background-color: rgb(243, 243, 243);&quot;&gt;本届趣味运动会共16支代表队参加，参赛运动员近1000人，各代表队参加了1、齐心协力走、2、同舟共济、3、独木桥过河、4、男子4X100米接力、5、女子4X100米接力、6、奥运福娃接力、7、拔河、8、男子篮球联赛等8个趣味项目，男子100米、女子60、铅球、跳远、掷沙袋等田径项目，还有趣味高尔夫、足球射门、飞镖等娱乐项目。运动会从参与性、娱乐性、趣味性、团队性上都得到了很好的体现，赛事在亿众体育的全程策划及组织下取得圆满成功。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160624/1466761272674823.jpg&quot; title=&quot;1466761272674823.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160624/1466761272982649.jpg&quot; title=&quot;1466761272982649.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160624/1466761272569161.jpg&quot; title=&quot;1466761272569161.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(53, 53, 53); font-family: 微软雅黑; font-size: 12px; line-height: 25px; background-color: rgb(243, 243, 243);&quot;&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=15 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-07-04T08:30:21+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-07-04T08:30:22+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:30:28+08:00 ] 1.192.164.245 /index.php/Pangu/Index/edit.html?table=cases&type=&id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_cases` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yz_case_type` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 41 行.
+NOTIC: [8] Undefined variable: templets /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/1c7b6b41185b12f6d1eccf6d8d13c42d.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-07-04T08:30:29+08:00 ] 1.192.164.245 /index.php/Pangu/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_pro_list` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yz_pro_list` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-07-04T08:30:34+08:00 ] 1.192.164.245 /index.php/Pangu/Index/do_edit.html?table=cases&id=20&time=1467590400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0012s ]
+SQL: UPDATE `yz_cases` SET `type`='',`title`='2010年中南电力设计院职工趣味运动会',`author`='管理员',`image`='/Uploads/images/201606271309065770b4f280d46.png',`ptime`='1467590400',`typeid`='1',`content`='&lt;ul class=&quot;service_ground_cons list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;时间：2010-11-13&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;地点：武汉体育学院&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;挑战人数：900人&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;clear&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; width: 1160px; height: 1px; line-height: 25px; overflow: hidden; clear: both; font-stretch: normal; font-size: 12px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; list-style: none; outline: none; font-stretch: normal; font-size: 12px; line-height: 25px; font-family: 微软雅黑; color: rgb(53, 53, 53); white-space: normal;&quot;&gt;武汉亿众体育总承办中国电力工程顾问集团中南电力设计院职工趣味运动会。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003871338334.jpg&quot; title=&quot;1467003871338334.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003873755658.jpg&quot; title=&quot;1467003873755658.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20160627/1467003873110984.jpg&quot; title=&quot;1467003873110984.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=20 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-07-04T08:30:36+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-07-04T08:30:36+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:30:44+08:00 ] 1.192.164.245 /index.php/Pangu/Index/cases.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_case_type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_case_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yz_cases` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yz_cases`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 38 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 70 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 77 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 107 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/9ee612a600f9ae848119d2653fff61f0.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-07-04T08:30:44+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
+[ 2016-07-04T08:30:45+08:00 ] 1.192.164.245 /index.php/Pangu/Index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `yz_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yz_news`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/f271b6c284063ed5d9efc367aae4f6a6.php 第 38 行.
+NOTIC: [8] Undefined variable: type /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/f271b6c284063ed5d9efc367aae4f6a6.php 第 72 行.
+NOTIC: [8] Undefined variable: page /data/home/qxu2063020067/htdocs/Application/Runtime/Cache/Pangu/f271b6c284063ed5d9efc367aae4f6a6.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-07-04T08:30:45+08:00 ] 1.192.164.245 /index.php/Pangu/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /data/home/qxu2063020067/htdocs/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+ERR: 非法操作:skin
+
